@@ -1,0 +1,21 @@
+.profiles-list {
+    height: 75%;
+    max-height: 49rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 75%;
+    max-width: 70rem;
+    margin: 0 auto;
+    border-radius: 7px;
+    padding: 0 2rem;
+  }
+
+  .profiles-list::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.logout {
+  margin: 1rem auto;
+  text-align: center;
+
+}

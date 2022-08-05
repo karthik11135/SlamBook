@@ -1,0 +1,82 @@
+.profile-flex {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-family: "Roboto", sans-serif;
+  column-gap: 4rem;
+  margin: 1rem 2rem;
+}
+
+.profile {
+  max-width: 85rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0.8rem;
+  box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.09);
+  margin: 1rem auto;
+}
+
+.profile-name {
+  font-size: 2.8rem;
+  font-weight: bolder;
+}
+
+.dept {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-year,
+.profile-hostel,
+.profile-rollno {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment-card {
+  max-width: 150rem;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  padding: 2rem 2.5rem;
+}
+
+.commentHead {
+  margin-bottom: 2.7rem;
+  font-size: 3.2rem;
+  font-weight: bolder;
+}
+
+.comment-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.6rem;
+}
+
+.comment-heading {
+  font-size: 2rem;
+}
+
+.input-big {
+  width: 50rem;
+}
+
+.input-small {
+  width: 45rem;
+}
+
+.submit {
+  margin: 2rem 0;
+  font-size: 2.2rem;
+}
+
+.commentBtn {
+  font-size: 2rem;
+  padding: 0.9rem 1.2rem;
+  text-align: center;
+  margin: 0.8rem 1.5rem;
+  max-width: 15rem;
+  width: 20%;
+}

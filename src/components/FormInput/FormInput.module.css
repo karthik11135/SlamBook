@@ -1,0 +1,50 @@
+.form-title {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 4.3rem;
+}
+
+.form {
+  padding: 2rem 4rem;
+  box-shadow: 2px 3px 20px 7px rgba(0,0,0,0.075);
+  padding-bottom: 1.7rem;
+  border-radius: 7px;
+  max-width: 100rem;
+  min-height: 45rem;
+  background-color: rgb(222, 226, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2000;
+}
+
+.inputs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+
+input {
+  border: none;
+  border-radius: 5px;
+  flex: 0;
+  font-size: 1.8rem;
+  font-family: "Roboto";
+  padding: 0.8rem 0.5rem;
+}
+
+label {
+  font-size: 2.2rem;
+  font-family: "Roboto";
+}
+
+.sign-up-form {
+    max-height: 50rem;
+    max-width: 80rem;
+    padding: 3rem 4rem;
+    z-index: 2000;
+}

@@ -1,0 +1,39 @@
+.navFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2.5rem;
+  width: 85%;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  gap: 30rem;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #444;
+  font-family: "Edu VIC WA NT Beginner";
+}
+
+.button {
+  font-family: sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 1.4rem 2.2rem;
+  width: 7.5rem;
+  border-radius: 40rem;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}

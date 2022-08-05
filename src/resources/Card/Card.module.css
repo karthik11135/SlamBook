@@ -1,0 +1,14 @@
+.card {
+    padding: 2rem 4rem;
+    box-shadow: 2px 3px 20px 7px rgba(0,0,0,0.075);
+    padding-bottom: 1.7rem;
+    border-radius: 7px;
+    max-width: 47rem;
+    min-height: 34rem;
+    background-color: rgb(222, 226, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2000;
+  }

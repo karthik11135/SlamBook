@@ -1,0 +1,16 @@
+.searchbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  max-width: 65%;
+  margin:  0rem auto;
+  padding: 5rem;
+}
+
+.name-input-search {
+    flex-grow: 1;
+    padding: 0.8rem 0.7rem;
+    border: none;
+    box-shadow: 0px 5px 20px 5px rgba(0,0,0,0.09);
+}

@@ -1,0 +1,39 @@
+.notification {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3rem;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.button {
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 3rem;
+}
+
+.success .button {
+  background-color: green;
+  color: white;
+}
+
+.success {
+  color: white;
+  background-color: rgb(122, 216, 122);
+}
+
+.failure {
+  background-color: rgb(248, 157, 157);
+  color: red;
+}
+
+.failure .button {
+  background-color: red;
+}
