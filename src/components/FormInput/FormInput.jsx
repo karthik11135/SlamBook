@@ -36,8 +36,12 @@ const FormInput = (props) => {
 
       dispatch(authSliceActions.closeSignupModal());
       dispatch(authSliceActions.closeBackdrop());
-      const data = await fetchData("get");
-      const studentsDataFetched = Object.values(data);
+      let data = await fetchData("get");
+      if(data === null) {
+        data = {};
+      };
+      let studentsDataFetched = Object.values(data);
+      console.log(studentsDataFetched);
 
       function correctInputs(obj) {
         const dataExists = studentsDataFetched.some((eachData) => {
