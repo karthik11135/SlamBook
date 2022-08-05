@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/delta-task3/static/css/main.84a07f19.css",
+    "main.js": "/delta-task3/static/js/main.486484b5.js",
+    "static/js/787.56d621cc.chunk.js": "/delta-task3/static/js/787.56d621cc.chunk.js",
+    "index.html": "/delta-task3/index.html",
+    "main.84a07f19.css.map": "/delta-task3/static/css/main.84a07f19.css.map",
+    "main.486484b5.js.map": "/delta-task3/static/js/main.486484b5.js.map",
+    "787.56d621cc.chunk.js.map": "/delta-task3/static/js/787.56d621cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84a07f19.css",
+    "static/js/main.486484b5.js"
+  ]
+}
