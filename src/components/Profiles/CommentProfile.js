@@ -6,6 +6,7 @@ import Button from "../../resources/Button/Button";
 import fetchData from "../HelperFunctions/Fetching";
 import { profileSliceActions } from "./../../store/profiles";
 import { authSliceActions } from "../../store/auth";
+import { notificationSliceActions } from './../../store/notification';
 
 const CommentProfile = (props) => {
   const dispatch = useDispatch();
@@ -48,7 +49,7 @@ const CommentProfile = (props) => {
         },
       }
     );
-
+    dispatch(notificationSliceActions.commentSent());
     dispatch(profileSliceActions.closeCommentsReducer());
     dispatch(authSliceActions.closeBackdrop());
   };

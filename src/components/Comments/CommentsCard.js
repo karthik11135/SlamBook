@@ -1,13 +1,29 @@
 import React from "react";
 import classes from "./CommentsReceived.module.css";
 import Card from "../../resources/Card/Card";
+import { useDispatch } from "react-redux";
+import { authSliceActions } from "./../../store/auth";
 
 const CommentsCard = (props) => {
+  const dispatch = useDispatch();
+
+  const closeModalHandler = () => {
+    dispatch(authSliceActions.auth.closeBackdrop());
+    props.setShowCommentCard((prevState) => {
+      return !prevState;
+    });
+  };
+
   return (
     <Card>
-      <h3 className={classes["comments-card--heading"]}>
-        {props.name} commented on your profile
-      </h3>
+      <div className={classes["comments-card--heading-box"]}>
+        <h3 className={classes["comments-card--heading"]}>
+          {props.name} commented on your profile
+        </h3>
+
+        <button onClick={closeModalHandler}>X</button>
+      </div>
+
       <div className={classes["each-comment"]}>
         <h4 className={classes["comment-que"]}>
           First thing that striked about you

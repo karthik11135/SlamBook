@@ -6,7 +6,6 @@ import classes from "./LoggedInComponents.module.css";
 import CommentsReceived from "../Comments/CommentsReceived";
 
 const LoggedInComponents = (props) => {
-
   const studentDataArray = useSelector(
     (state) => state.profilesData.studentsData
   );

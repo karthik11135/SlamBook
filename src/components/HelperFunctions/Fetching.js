@@ -10,8 +10,8 @@ const fetchData = async (reqType, data) => {
         },
       }
     );
-  } 
-  if(reqType === 'get') {
+  }
+  if (reqType === "get") {
     const responseLoginIn = await fetch(
       "https://delta-task-default-rtdb.firebaseio.com/studentsData.json"
     );
@@ -19,7 +19,7 @@ const fetchData = async (reqType, data) => {
 
     return data;
   }
-  
+
   return data;
 };
 

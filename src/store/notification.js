@@ -33,6 +33,10 @@ const notificationSlice = createSlice({
     somethingWentWrong(state) {
       state.text = 'Enter proper details';
       state.status = 'failure';
+    },
+    commentSent(state) {
+      state.text = 'Commented successfully';
+      state.status = 'success';
     }
   },
 });

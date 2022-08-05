@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const commentsSlice = createSlice({
   name: "comments",
-  initialState: { showCommentsCard: false, commentsStore: null},
+  initialState: { showCommentsCard: false, commentsStore: null },
   reducers: {
     openCommentsCard(state) {
       state.showCommentsCard = true;
