@@ -44,7 +44,7 @@ const SearchBar = () => {
         type="text"
         placeholder="Enter a name"
       />
-      <Button onClick={searchHandler} type="submit">
+      <Button onClick={searchHandler} className={classes.searchBtn} type="submit">
         Search
       </Button>
     </div>

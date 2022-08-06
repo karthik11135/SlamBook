@@ -9,13 +9,14 @@ const CommentsCard = (props) => {
 
   const closeModalHandler = () => {
     dispatch(authSliceActions.auth.closeBackdrop());
+ 
     props.setShowCommentCard((prevState) => {
       return !prevState;
     });
   };
 
   return (
-    <Card>
+    <Card className={classes.commentsCardClass}>
       <div className={classes["comments-card--heading-box"]}>
         <h3 className={classes["comments-card--heading"]}>
           {props.name} commented on your profile
